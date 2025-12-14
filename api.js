@@ -11,7 +11,7 @@ export default function handler(req, res) {
   if (s1===s2 && s2===s3) {
     image = "https://i.imgur.com/8Qf0ZQk.png";
     button = "Claim Reward 🎁";
-    postUrl = "https://zora.co/collect/YOUR_NFT_LINK";
+    postUrl = "https://zora.co/collect/zora:0x6d4c8b8edda44cc3e6f70d1358bc233e5fbd1780/1?referrer=0xbc2876d3daf733e94890e6f82795716c9146a396";
   }
 
   res.setHeader("Content-Type", "text/html");
