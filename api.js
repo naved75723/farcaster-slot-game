@@ -1,4 +1,4 @@
-xprt default function handler(req, res) {
+xrt default function handler(req, res) {
   const symbols = ["🍒","🍋","🔔","⭐"];
   const s1 = symbols[Math.floor(Math.random()*symbols.length)];
   const s2 = symbols[Math.floor(Math.random()*symbols.length)];
